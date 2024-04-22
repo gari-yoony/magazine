@@ -1,0 +1,14 @@
+nav{
+    max-width: 1784px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px;;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0px;
+
+}
