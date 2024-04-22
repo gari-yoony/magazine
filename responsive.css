@@ -187,6 +187,7 @@ header h1 {
     flex-direction: column-reverse;
     justify-content: space-between;
     flex-wrap: wrap;
+    gap: 48px;
   }
 }
 
@@ -246,6 +247,8 @@ header h1 {
 @media (max-width: 768px) {
   .all-stories-text {
     width: auto;
+    height: auto;
+    padding-bottom: 0px;
   }
   .all-stories-text h2 {
     font-size: 2rem;
@@ -321,9 +324,14 @@ header h1 {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    /* height: auto; */
+    gap: 16px;
   }
   .newsletter-title {
+    display: flex;
+    flex-direction: column;
     gap: 16px;
+    height: fit-content;
   }
   .newsletter-title h1 {
     font-size: 2rem;
@@ -362,7 +370,7 @@ header h1 {
     gap: 8px;
   }
   .newsletter-input-email {
-    width: 166px;
+    width: 169px;
     /* width: 100%; */
   }
 }
