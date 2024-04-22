@@ -169,3 +169,69 @@ header h1 {
     text-transform: uppercase;
 }
 
+.hr2 {
+    width: auto;
+    border-bottom: solid 1px #191919;
+    margin: 0px 0px 47px 0px;
+}
+
+.section1 {
+    width: 1784px;
+    height: 2235.76px;
+    display: flex;
+}
+
+.container{
+/* Container */
+    position: static;
+    width: 1784px;
+    height: 2105.76px;
+    /* 자동 레이아웃 */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 64px 0px;
+}
+.line2{
+    margin-right: 15px;
+}
+
+.image-wrapper1{
+    
+    position: static;
+    width: 1157px;
+    height: 680.59px;
+    background: rgb(125, 125, 125);
+    border-radius: 16px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0px 0px;
+
+}
+
+.image-wrapper2, .image-wrapper3{
+    
+    position: static;
+    width: 1157px;
+    height: 680.59px;
+    background: rgb(125, 125, 125);
+    border-radius: 16px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 32px 0px;
+
+}
+
