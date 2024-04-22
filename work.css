@@ -256,5 +256,99 @@ header h1 {
   font-family: "Roboto Mono", monospace;
 }
 
-.newsletter-signup {
+fotter {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-top {
+  display: flex;
+  flex-direction: row;
+  gap: 48px;
+}
+
+.fylla-info {
+  width: 530px;
+  height: 311px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.fylla-logo-addr {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  font-family: "Pretendard-Regular";
+}
+.sns {
+  display: flex;
+  gap: 16px;
+}
+
+.line-vertical hr {
+  height: 311px;
+  width: 1px;
+  border-width: 0;
+  color: #000;
+  background-color: #000;
+}
+.footer-menu {
+  width: 353.67px;
+  height: 311px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.footer-menu h3 {
+  font-family: "Pretendard-Regular";
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 120%;
+}
+.footer-menu ul {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.footer-menu ul li {
+  font-family: "Roboto Mono", monospace;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 0.5px;
+  text-align: left;
+  text-transform: uppercase;
+}
+.footer-menu ul li a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.button-more {
+  width: 172px;
+  height: 35px;
+  border-radius: 6px;
+  background-color: #191919;
+  padding: 10px, 16px, 10px, 16px;
+  color: #fdfbf5;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Roboto Mono", monospace;
+}
+.madeby {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-bottom: 64px;
+  font-family: "Roboto Mono", monospace;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 0.5px;
+  text-align: left;
+  text-transform: uppercase;
+}
+.privacy-imprint {
+  display: flex;
+  gap: 32px;
 }
