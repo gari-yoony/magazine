@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
 body {
   background-color: #fdfbf5;
   max-width: 1920px;
@@ -177,4 +185,76 @@ header h1 {
   width: 100%;
   height: 753.75px;
   border-radius: 10px;
+}
+
+.newsletter {
+  width: 1784px;
+  height: 349px;
+  display: flex;
+  gap: 48px;
+  justify-content: space-between;
+}
+.newsletter-title {
+  width: 1206px;
+  height: 349px;
+}
+.newsletter-title p {
+  color: rgb(25, 25, 25);
+  font-family: "Roboto Mono", monospace;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 0.5px;
+  text-align: left;
+  text-transform: uppercase;
+}
+.newsletter-title h1 {
+  /* heading/large */
+  color: rgb(25, 25, 25);
+  font-family: "Pretendard-Regular";
+  font-size: 96px;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.newsletter-subs-section {
+  width: 530px;
+  height: 349px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.newsletter-subs-desc p {
+  font-family: "Pretendard-Regular";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 160%;
+}
+.newsletter-subscription {
+}
+.newsletter-input-email {
+  width: 412px;
+  height: 35px;
+  background-color: #fdfbf5;
+  border-width: 0 0 1px;
+  font-family: "Pretendard-Regular";
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 100%;
+}
+.newsletter-signup {
+  width: 102px;
+  height: 35px;
+  border-radius: 6px;
+  background-color: #191919;
+  padding: 10px, 16px, 10px, 16px;
+  color: #fdfbf5;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Roboto Mono", monospace;
+}
+
+.newsletter-signup {
 }
