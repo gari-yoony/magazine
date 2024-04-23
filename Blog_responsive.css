@@ -308,6 +308,26 @@ nav{
     height: 35px;
 
 }
+@media (max-width:800px){
+  
+  .section2{
+    display: none;
+  }
+  .previous, .next{
+      display: none;
+
+  }
+}
+@media (max-width:800px){
+  .child{
+    display: flex;
+    flex-direction: column;
+    gap:0px;
+    margin-bottom: 0px;
+    width:800px;
+    margin-left:0px;
+    
+  }
   .image-description{
     max-width:600px;
     margin-bottom: 40px;
