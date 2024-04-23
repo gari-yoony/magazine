@@ -142,7 +142,7 @@ nav{
     width: auto;
     height: auto;
     color: rgb(25, 25, 25);
-    font-family: Pretendard;
+    font-family: "Pretendard-Regular";
     font-size: 128px;
     font-weight: 500;
     line-height: 100%;
@@ -152,7 +152,7 @@ nav{
 
 .header-p{
     color: rgb(25, 25, 25);
-    font-family: Pretendard;
+    font-family: "Pretendard-Regular";
     font-size: 28px;
     font-weight: 400;
     line-height: 150%;
@@ -231,7 +231,7 @@ nav{
     width: auto;
     height: auto;
     color: rgb(25, 25, 25);
-    font-family: Pretendard;
+    font-family: "Pretendard-Regular";
     font-size: 48px;
     font-weight: 500;
     line-height: 120%;
@@ -293,7 +293,7 @@ nav{
     
 }
 .section2 p{
-    font-family: Pretendard;
+    font-family: "Pretendard-Regular";
     font-size: 29px;
     font-weight: 500;
     line-height: 130%;
@@ -448,7 +448,7 @@ nav{
     }
     .mobile-footer-label{
       color: rgb(25, 25, 25);
-      font-family: Roboto Mono;
+      font-family: "Roboto Mono", monospace;
       font-size: 15px;
       font-weight: 400;
       line-height: 100%;
@@ -459,7 +459,7 @@ nav{
     }
     .mobile-footer-title{
       color: rgb(25, 25, 25);
-      font-family: Pretendard;
+      font-family: "Pretendard-Regular";
       font-size: 24px;
       font-weight: 500;
       line-height: 110%;
@@ -470,7 +470,7 @@ nav{
     }
     .mobile-footer-content{
       color: rgb(25, 25, 25);
-      font-family: Pretendard;
+      font-family: "Pretendard-Regular";
       font-size: 16px;
       font-weight: 400;
       line-height: 150%;
@@ -521,7 +521,7 @@ nav{
     height: 311px;
     display: flex;
     flex-direction: column;
-    /* gap: 30px; */
+    gap: 30px;
   }
   .footer-menu h3 {
     font-family: "Pretendard-Regular";
