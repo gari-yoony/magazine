@@ -38,6 +38,28 @@ nav{
     margin: 0px;
 
 }
+@media (max-width:768px){
+  nav{
+    max-width: 1784px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0px;
+    gap:20px;
+    
+ 
+  }
+  .nav-work a{
+    margin-left:0px
+  }
+}
+
 .top-image{
 
     position: static;
