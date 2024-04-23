@@ -38,6 +38,28 @@ nav{
     margin: 0px;
 
 }
+@media (max-width:768px){
+  nav{
+    max-width: 1784px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0px;
+    gap:20px;
+    
+ 
+  }
+  .nav-work a{
+    margin-left:0px
+  }
+}
+
 .top-image{
 
     position: static;
@@ -152,7 +174,14 @@ nav{
 
    
 }
-
+@media (max-width:800px){
+  .header-row{
+      display:flex;
+      flex-direction: column;
+  
+      align-items: flex-start;
+  }
+}
 .hr2{
     position: static;
     width: auto;
@@ -185,6 +214,7 @@ nav{
     height: 97%;
     border-radius: 10px;
 }
+
 .section1-title{
     width: 152x;
     max-width:152px;
@@ -235,6 +265,12 @@ nav{
     flex-grow: 0;
     margin: 0px 0px 64px 0px;
 }
+@media (max-width:800px){
+  .hr4{
+    display: none;
+  }
+}
+
 .section2-child{
     display: flex;
     flex-direction: row;
@@ -272,82 +308,182 @@ nav{
     height: 35px;
 
 }
+@media (max-width:800px){
+  
+  .section2{
+    display: none;
+  }
+  .previous, .next{
+      display: none;
+
+  }
+}
+@media (max-width:800px){
+  .child{
+    display: flex;
+    flex-direction: column;
+    gap:0px;
+    margin-bottom: 0px;
+    width:800px;
+    margin-left:0px;
+    
+  }
+  .image-description{
+    max-width:600px;
+    margin-bottom: 40px;
+
+  }
+  .section1-img1, .section1-img2{
+    width: 100%;
+    height: auto;
+  }
+  .hr3{
+    display: none;
+  }
+  .image-description p{
+    font-size: 32px;
+  }
+  
+}
+.newsletter {
+  /* width: 1784px; */
+  /* height: 349px; */
+  height: 100%;
+  display: flex;
+  gap: 48px;
+  justify-content: space-between;
+  /* padding-bottom: 0px; */
+  /* flex-wrap: wrap; */
+}
 .newsletter-title {
-    /* width: 1206px; */
-    /* width: 800px; */
-    /* height: 349px; */
+  /* width: 1206px; */
+  /* width: 800px; */
+  /* height: 349px; */
+}
+.newsletter-title p {
+  color: rgb(25, 25, 25);
+  font-family: "Roboto Mono", monospace;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 0.5px;
+  text-align: left;
+  text-transform: uppercase;
+}
+.newsletter-title h1 {
+  /* heading/large */
+  color: rgb(25, 25, 25);
+  font-family: "Pretendard-Regular";
+  /* font-size: 96px; */
+  font-size: 6rem;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.newsletter-subs-section {
+  width: 530px;
+  height: 349px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.newsletter-subs-desc p {
+  font-family: "Pretendard-Regular";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 160%;
+}
+.newsletter-subscription {
+  display: flex;
+  gap: 16px;
+  flex-wrap: nowrap;
+}
+
+.newsletter-input-email {
+  width: 412px;
+  height: 35px;
+  background-color: #fdfbf5;
+  border-width: 0 0 1px;
+  font-family: "Pretendard-Regular";
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 100%;
+}
+
+
+.newsletter-input-email::placeholder {
+  color: #191919;
+  font-size: 26px;
+}
+.newsletter-signup {
+  width: 102px;
+  height: 35px;
+  border-radius: 6px;
+  background-color: #191919;
+  padding: 10px, 16px, 10px, 16px;
+  color: #fdfbf5;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Roboto Mono", monospace;
+}
+
+
+  .mobile-footer{
+    display: none;
   }
-  .newsletter-title p {
-    color: rgb(25, 25, 25);
-    font-family: "Roboto Mono", monospace;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 100%;
-    letter-spacing: 0.5px;
-    text-align: left;
-    text-transform: uppercase;
-  }
-  .newsletter-title h1 {
-    /* heading/large */
-    color: rgb(25, 25, 25);
-    font-family: "Pretendard-Regular";
-    /* font-size: 96px; */
-    font-size: 6rem;
-    font-weight: 500;
-    line-height: 100%;
-    letter-spacing: 0px;
-    text-align: left;
-  }
-  
-  .newsletter-subs-section {
-    width: 530px;
-    height: 349px;
+
+  .footer {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
   }
-  .newsletter-subs-desc p {
-    font-family: "Pretendard-Regular";
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 160%;
-  }
-  .newsletter-subscription {
-    display: flex;
-    gap: 16px;
-    flex-wrap: nowrap;
-  }
-  .newsletter-input-email {
-    width: 412px;
-    height: 35px;
-    background-color: #fdfbf5;
-    border-width: 0 0 1px;
-    font-family: "Pretendard-Regular";
-    font-weight: 400;
-    font-size: 26px;
-    line-height: 100%;
-  }
-  .newsletter-input-email::placeholder {
-    color: #191919;
-    font-size: 26px;
-  }
-  .newsletter-signup {
-    width: 102px;
-    height: 35px;
-    border-radius: 6px;
-    background-color: #191919;
-    padding: 10px, 16px, 10px, 16px;
-    color: #fdfbf5;
-    text-align: center;
-    text-decoration: none;
-    font-family: "Roboto Mono", monospace;
+  @media (max-width:800px){
+    .newsletter{
+      display: none;
+    }
+    .mobile-footer{
+      display:block;
+    }
+    .mobile-footer-label{
+      color: rgb(25, 25, 25);
+      font-family: Roboto Mono;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 100%;
+      letter-spacing: 0.5px;
+      text-align: left;
+      text-transform: uppercase;
+      margin-bottom: 65px;
+    }
+    .mobile-footer-title{
+      color: rgb(25, 25, 25);
+      font-family: Pretendard;
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 110%;
+      letter-spacing: 0px;
+      text-align: left;
+      text-transform: uppercase;
+      margin: 16px 0px;
+    }
+    .mobile-footer-content{
+      color: rgb(25, 25, 25);
+      font-family: Pretendard;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 150%;
+      letter-spacing: 0%;
+      text-align: left;
+      margin: 32px 0px;
+    }
+    .mobile-footer-line{
+      margin-bottom: 64px;
+    }
+
   }
   
-  
-  footer {
-    display: flex;
-    flex-direction: column;
-  }
   
   .footer-top {
     display: flex;
@@ -449,4 +585,35 @@ nav{
   .privacy-imprint {
     display: flex;
     gap: 32px;
+  }
+
+
+
+  @media (max-width: 800px) {
+    .footer-top {
+      display: flex;
+      flex-direction: column;
+      gap: 48px;
+    }
+    .sns {
+      display: none;
+    }
+    .line-vertical {
+      display: none;
+    }
+    .fylla-info {
+      height: 140px;
+    }
+    .fylla-logo-addr p {
+      font-size: 18px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .footer-menu {
+      height: auto;
+    }
+    .footer-menu ul {
+      gap: 16px;
+    }
   }
