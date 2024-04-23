@@ -174,6 +174,14 @@ nav{
 
    
 }
+@media (max-width:800px){
+  .header-row{
+      display:flex;
+      flex-direction: column;
+  
+      align-items: flex-start;
+  }
+}
 .hr2{
     position: static;
     width: auto;
@@ -257,6 +265,12 @@ nav{
     flex-grow: 0;
     margin: 0px 0px 64px 0px;
 }
+@media (max-width:800px){
+  .hr4{
+    display: none;
+  }
+}
+
 .section2-child{
     display: flex;
     flex-direction: row;
