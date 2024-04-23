@@ -439,6 +439,52 @@ nav{
     display: flex;
     flex-direction: column;
   }
+  @media (max-width:800px){
+    .newsletter{
+      display: none;
+    }
+    .mobile-footer{
+      display:block;
+    }
+    .mobile-footer-label{
+      color: rgb(25, 25, 25);
+      font-family: Roboto Mono;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 100%;
+      letter-spacing: 0.5px;
+      text-align: left;
+      text-transform: uppercase;
+      margin-bottom: 65px;
+    }
+    .mobile-footer-title{
+      color: rgb(25, 25, 25);
+      font-family: Pretendard;
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 110%;
+      letter-spacing: 0px;
+      text-align: left;
+      text-transform: uppercase;
+      margin: 16px 0px;
+    }
+    .mobile-footer-content{
+      color: rgb(25, 25, 25);
+      font-family: Pretendard;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 150%;
+      letter-spacing: 0%;
+      text-align: left;
+      margin: 32px 0px;
+    }
+    .mobile-footer-line{
+      margin-bottom: 64px;
+    }
+
+  }
+  
+  
   .footer-top {
     display: flex;
     flex-direction: row;
