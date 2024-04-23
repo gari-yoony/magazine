@@ -212,6 +212,13 @@ header h1 {
   align-self: stretch;
   flex-grow: 0;
 }
+.all-stories-text a {
+  color: #191919;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
 
 .all-stories-text h2 {
   font-family: "Pretendard-Regular";
@@ -250,6 +257,11 @@ header h1 {
     height: auto;
     padding-bottom: 0px;
   }
+  .all-stories-text a {
+    color: #191919;
+    text-decoration: none;
+  }
+
   .all-stories-text h2 {
     font-size: 2rem;
     line-height: 110%;
