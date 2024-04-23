@@ -271,6 +271,75 @@ header h1 {
 
 }
 
+.hr3 {
+    width: auto;
+    border-bottom: solid 1px #191919;
+    margin: 0px 0px 0px 0px;
+}
+
+.section2{
+    width: 1784px;
+    height: 585px;
+    display: flex;
+}
+
+.section2 p{
+    color: rgb(25, 25, 25);
+    font-family: Roboto Mono;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0.5px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.section2 h1{
+    color: rgb(25, 25, 25);
+    font-family: Pretendard;
+    font-size: 96px;
+    font-weight: 500;
+    line-height: 110%;
+    letter-spacing: 0px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.section2-content1{
+    margin-top: 65px;
+    margin-right: 48px;
+    width: 1157px;
+    height: 455px;
+}
+
+.section2-content1 h2{
+    margin-top: 16px;
+}
+
+.section2-border{
+    margin-top: 65px;
+    margin-right: 48px;
+}
+
+.section2-content2{
+    margin-top: 65px;
+    color: rgb(25, 25, 25);
+    font-family: Pretendard;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 560px;
+    height: 455px;
+}
+
+.hr4 {
+    width: auto;
+    border-bottom: solid 1px #191919;
+    margin: 0px 0px 65px 0px;
+}
+
 fotter {
     display: flex;
     flex-direction: column;
