@@ -1,0 +1,451 @@
+@font-face {
+    font-family: "Pretendard-Regular";
+    src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+      format("woff");
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+body {
+    background-color: #FDFBF5;
+    max-width: 1920px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    
+
+}
+.border-box{
+    border: solid 1px #191919;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    padding:48px;
+    
+}
+nav{
+    max-width: 1784px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px;;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0px;
+
+}
+.top-image{
+
+    position: static;
+    width: 138.65px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px;
+}
+
+.nav-menu{
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+    order: 1;
+    margin: 0px 10px;
+    flex-wrap: wrap;
+}
+.nav-menu li{
+    list-style-type: none;
+    
+}
+.nav-menu li a{
+    position: static;
+    width: 38px;
+    height: 15px;
+    color: rgb(25, 25, 25);
+    font-family: Roboto Mono;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0.5px;
+    margin: 0px 32px;
+    text-decoration-line: none;
+}
+.nav-lets{
+
+    position: static;
+    width: 132px;
+    height: 35px;
+    background: rgb(25, 25, 25);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 10px 16px 10px 16px;;
+    margin: 0px 20px;
+    background: rgb(25, 25, 25);
+    color: rgb(253, 251, 245);
+    font-family: Roboto Mono;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 1px;
+    text-align: left;
+    border-radius: 6px;
+    border:0px;
+}
+.hr1{
+    position: static;
+    width: auto;
+    background: rgb(25, 25, 25);
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 33px 0px 64px 0px;
+
+}
+
+.header-text h2 {
+    width: auto;
+    height: auto;
+    color: rgb(25, 25, 25);
+    font-family: Pretendard;
+    font-size: 128px;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0px;
+    margin: 0px 0px 16px 0px;
+}
+
+.header-p{
+    color: rgb(25, 25, 25);
+    font-family: Pretendard;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+}
+.header-image{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:16px;
+    padding: 0px;;
+    
+}
+
+.header-row{
+    display:flex;
+    align-items:end;
+    justify-content: space-between;
+
+   
+}
+.hr2{
+    position: static;
+    width: auto;
+    background: rgb(25, 25, 25);
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 63px 0px 27px 0px;
+}
+
+
+.child{
+    display: flex;
+    gap:30px;
+    margin-bottom: 65px;
+    width:1301px;
+    margin-left:0px;
+
+}
+.section1-img1{
+    /* min-width: 300px; */
+    width:100%;
+    height:auto;
+    border-radius: 10px;
+}
+.section1-img2{
+    /* min-width: 300px; */
+    width:100%;
+    height: 97%;
+    border-radius: 10px;
+}
+.section1-title{
+    width: 152x;
+    max-width:152px;
+    margin-top:15.88px;
+    margin-bottom: 8px;
+    height: 13.26;
+}
+.image-description{
+    display:flex;
+    flex-direction: column;
+}
+.image-description p{
+
+    width: auto;
+    height: auto;
+    color: rgb(25, 25, 25);
+    font-family: Pretendard;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: 0px;
+    text-align: left;
+    margin:0px;
+    align-self: stretch;
+}
+.hr3{
+    height:auto;
+    width:.1vw;
+    border-width:0;
+    color:#000 solid; 
+    background-color:#000;
+    align-self: stretch;
+    
+}
+.verticle-line{
+    height:420px;
+    width:.1vw;
+    border-width:0;
+    color:gray solid; 
+    background-color:gray;
+    margin:0px
+
+}
+.hr4{
+    width: auto;
+    background: rgb(25, 25, 25);
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0px 0px 64px 0px;
+}
+.section2-child{
+    display: flex;
+    flex-direction: row;
+    width:1318px;
+    flex-wrap: wrap;
+    gap:38px;
+}
+.section2-part{
+    display: flex;
+    flex-direction: column;
+    width:380px;
+    margin-bottom: 64px;
+
+
+}
+.section2-img1, .section2-img2, .section2-img3, .section2-img4, .section2-img5, .section2-img6{
+    width: 380px;
+    height: 280px;
+    border-radius: 10px;
+    
+}
+.section2 p{
+    font-family: Pretendard;
+    font-size: 29px;
+    font-weight: 500;
+    line-height: 130%;
+    letter-spacing: 0%;
+}
+.section2-button{
+    display: flex;
+    justify-content: space-between;
+}
+.previous, .next{
+    width: 115px;
+    height: 35px;
+
+}
+.newsletter-title {
+    /* width: 1206px; */
+    /* width: 800px; */
+    /* height: 349px; */
+  }
+  .newsletter-title p {
+    color: rgb(25, 25, 25);
+    font-family: "Roboto Mono", monospace;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0.5px;
+    text-align: left;
+    text-transform: uppercase;
+  }
+  .newsletter-title h1 {
+    /* heading/large */
+    color: rgb(25, 25, 25);
+    font-family: "Pretendard-Regular";
+    /* font-size: 96px; */
+    font-size: 6rem;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  
+  .newsletter-subs-section {
+    width: 530px;
+    height: 349px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .newsletter-subs-desc p {
+    font-family: "Pretendard-Regular";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 160%;
+  }
+  .newsletter-subscription {
+    display: flex;
+    gap: 16px;
+    flex-wrap: nowrap;
+  }
+  .newsletter-input-email {
+    width: 412px;
+    height: 35px;
+    background-color: #fdfbf5;
+    border-width: 0 0 1px;
+    font-family: "Pretendard-Regular";
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 100%;
+  }
+  .newsletter-input-email::placeholder {
+    color: #191919;
+    font-size: 26px;
+  }
+  .newsletter-signup {
+    width: 102px;
+    height: 35px;
+    border-radius: 6px;
+    background-color: #191919;
+    padding: 10px, 16px, 10px, 16px;
+    color: #fdfbf5;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Roboto Mono", monospace;
+  }
+  
+  fotter {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer-top {
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+  }
+  
+  .fylla-info {
+    width: 530px;
+    height: 311px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .fylla-logo-addr {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    font-family: "Pretendard-Regular";
+  }
+  .sns {
+    display: flex;
+    gap: 16px;
+  }
+  
+  .line-vertical hr {
+    height: 311px;
+    width: 1px;
+    border-width: 0;
+    color: #000;
+    background-color: #000;
+  }
+  .footer-menu {
+    width: 353.67px;
+    height: 311px;
+    display: flex;
+    flex-direction: column;
+    /* gap: 30px; */
+  }
+  .footer-menu h3 {
+    font-family: "Pretendard-Regular";
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 120%;
+  }
+  .footer-menu ul {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding:0px;
+  }
+  .footer-menu ul li {
+    font-family: "Roboto Mono", monospace;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0.5px;
+    text-align: left;
+    text-transform: uppercase;
+    list-style-type: none;
+  }
+  .footer-menu ul li a{
+    color: inherit;
+    text-decoration: none;
+    
+
+  }
+  
+  .button-more {
+    width: 172px;
+    height: 35px;
+    border-radius: 6px;
+    background-color: #191919;
+    padding: 10px, 16px, 10px, 16px;
+    color: #fdfbf5;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Roboto Mono", monospace;
+    border: 0px;
+  }
+  .hr3 {
+    width: auto;
+    border-bottom: solid 1px #191919;
+    margin: 64px 0px 48px 0px;
+  }
+  .madeby {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 64px;
+    font-family: "Roboto Mono", monospace;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0.5px;
+    text-align: left;
+    text-transform: uppercase;
+  }
+  .privacy-imprint {
+    display: flex;
+    gap: 32px;
+  }
