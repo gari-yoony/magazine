@@ -21,7 +21,6 @@ body {
     flex-direction: column;
     padding: 0px 48px;
     width: 1784px;
-    /* flex-wrap: wrap; */
 }
 
 .top-nav {
@@ -46,9 +45,7 @@ body {
   font-size: 15px;
   color: #191919;
   text-decoration: none;
-  /* font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal; */
+  
 }
 .nav-items .nav-work a,
 .nav-items .nav-blog a {
@@ -63,9 +60,6 @@ body {
     border-radius: 6px;
     background-color: #191919;
     padding: 10px, 16px, 10px, 16px;
-    /* -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none; */
 }
 .nav-lets-li a {
     color: #FDFBF5;
@@ -88,7 +82,6 @@ header {/*
     position: static;
     /* 자동 레이아웃 */
     display: flex;
-    /*flex-direction: column;*/
     justify-content: flex-start;
     align-items: flex-start;
 
