@@ -6,6 +6,24 @@
     font-style: normal;
   }
 
+
+body {
+    background-color: #FDFBF5;
+    max-width: 1920px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    
+
+}
+.border-box{
+    border: solid 1px #191919;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    padding:48px;
+    
+}
 nav{
     max-width: 1784px;
     height: 50px;
