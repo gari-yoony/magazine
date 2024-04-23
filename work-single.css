@@ -271,6 +271,12 @@ header h1 {
 
 }
 
+.wrapper1-img{
+    width: 1157px;
+    height: 680.59px;
+    border-radius: 16px;
+}
+
 .hr3 {
     width: auto;
     border-bottom: solid 1px #191919;
