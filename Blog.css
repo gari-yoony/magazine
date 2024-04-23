@@ -26,7 +26,7 @@ body {
 }
 nav{
     max-width: 1784px;
-    height: 50px;
+    height: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -152,6 +152,7 @@ nav{
 
    
 }
+
 .hr2{
     position: static;
     width: auto;
@@ -342,7 +343,8 @@ nav{
     font-family: "Roboto Mono", monospace;
   }
   
-  fotter {
+  
+  footer {
     display: flex;
     flex-direction: column;
   }
