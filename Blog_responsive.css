@@ -588,3 +588,32 @@ nav{
   }
 
 
+
+  @media (max-width: 800px) {
+    .footer-top {
+      display: flex;
+      flex-direction: column;
+      gap: 48px;
+    }
+    .sns {
+      display: none;
+    }
+    .line-vertical {
+      display: none;
+    }
+    .fylla-info {
+      height: 140px;
+    }
+    .fylla-logo-addr p {
+      font-size: 18px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .footer-menu {
+      height: auto;
+    }
+    .footer-menu ul {
+      gap: 16px;
+    }
+  }
