@@ -219,3 +219,56 @@ nav{
     align-self: stretch;
     
 }
+.verticle-line{
+    height:420px;
+    width:.1vw;
+    border-width:0;
+    color:gray solid; 
+    background-color:gray;
+    margin:0px
+
+}
+.hr4{
+    width: auto;
+    background: rgb(25, 25, 25);
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0px 0px 64px 0px;
+}
+.section2-child{
+    display: flex;
+    flex-direction: row;
+    width:1318px;
+    flex-wrap: wrap;
+    gap:38px;
+}
+.section2-part{
+    display: flex;
+    flex-direction: column;
+    width:380px;
+    margin-bottom: 64px;
+
+
+}
+.section2-img1, .section2-img2, .section2-img3, .section2-img4, .section2-img5, .section2-img6{
+    width: 380px;
+    height: 280px;
+    border-radius: 10px;
+    
+}
+.section2 p{
+    font-family: Pretendard;
+    font-size: 29px;
+    font-weight: 500;
+    line-height: 130%;
+    letter-spacing: 0%;
+}
+.section2-button{
+    display: flex;
+    justify-content: space-between;
+}
+.previous, .next{
+    width: 115px;
+    height: 35px;
+
+}
